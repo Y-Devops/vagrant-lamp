@@ -4,7 +4,7 @@
 Vagrant.configure("2") do |config|
   
   # Box Settings
-  config.vm.box = "ubuntu/trusty64"
+  config.vm.box = "ubuntu/xenial64"
 
   # Provider Settings
   config.vm.provider "virtualbox" do |vb|
